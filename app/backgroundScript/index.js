@@ -8,9 +8,6 @@ import Logger from 'lib/logger';
 import TronLinkUtils from 'pageHook/lib/Utils';
 import randomUUID from 'uuid/v4';
 
-import smartcontracts from './smartcontracts/index';
-smartcontracts.createUnsignedAssetIssueTransaction();
-
 // Constants
 import { CONFIRMATION_TYPE, CONFIRMATION_RESULT, WALLET_STATUS } from 'lib/constants';
 
